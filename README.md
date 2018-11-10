@@ -1,2 +1,13 @@
 # mirage-hello
+
 MirageOS/HelloWorld modelled after https://mirage.io/wiki/hello-world
+
+## Installation && test run
+
+``` shell
+$ opam switch create mirage ocaml-system.4.07.0
+$ opam install mirage
+$ mirage configure -t macosx
+$ make depend
+$ make
+```
